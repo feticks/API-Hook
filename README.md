@@ -4,4 +4,11 @@
 
 Can be used in many different ways such as the example of blocking and alerting of MessageBox calls.
 
+```ruby
+new Hook(
+    WinAPI.GetProcAddress(user32, "MessageBoxW"),
+    Marshal.GetFunctionPointerForDelegate((MessageBoxDelegate)MessageBox)
+).Enable();
+```
+
 ![ScreenShot](https://media.discordapp.net/attachments/1005173005426634802/1007318775504326676/unknown.png)
