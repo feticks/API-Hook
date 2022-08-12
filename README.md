@@ -1,8 +1,8 @@
 # API-Hook
 
-> Basic example usage of API Hooking in C#.
+Basic example usage of API Hooking in C#.
 
-Can be used in many different ways such as the example of blocking and alerting of MessageBox calls.
+> Can be used in many different ways such as the example of blocking and alerting of MessageBox calls.
 
 
 ```ruby
