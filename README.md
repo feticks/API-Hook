@@ -4,6 +4,7 @@
 
 Can be used in many different ways such as the example of blocking and alerting of MessageBox calls.
 
+
 ```ruby
 new Hook(
     WinAPI.GetProcAddress(user32, "MessageBoxW"),
